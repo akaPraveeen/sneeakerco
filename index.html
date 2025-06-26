@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">SNEAKERS</div>
+        <navbar>
+            <a href="">COLLECTION</a>
+            <a href="">MEN</a>
+            <a href="">WOMEN</a>
+            <a href="">ABOUT</a>
+            <a href="">CONTACT</a>
+        </navbar>
+        <div class="cart">
+            <button class="button"><img class="btn-img" src="/img/icon-cart.svg" alt=""></button>
+            <p class="cartno">0</p>
+            <img class="profile" src="/img/image-avatar.png" alt="profile">
+        </div>
+    </header>
+    <main>
+        <div class="left">
+            <div class="thumbnail">
+                <img id="imth" src="./img/AIR+FORCE+1+BG (1).avif" alt="img">
+            </div>
+            <div class="choice">
+                <div class="img1" ><img id="Img1" onclick="changeImage1()" src="./img/AIR+FORCE+1+BG (1).avif" alt="img"></div>
+                <div class="img2" ><img id="Img2" onclick="changeImage2()" src="./img/AIR+FORCE+1+BG (2).avif" alt="img"></div>
+                <div class="img3"><img id="Img3" onclick="changeImage3()"  src="./img/AIR+FORCE+1+BG (3).avif" alt="img"></div>
+                <div class="img4"><img id="Img4" onclick="changeImage4()"  src="./img/AIR+FORCE+1+BG.avif" alt="img"></div>
+            </div>
+        </div>
+        <div class="right">
+            <p class="snk">SNEAKERS  CO</p>
+            <h1 class="hed">Nike Air Force 1 <br> Sneaker</h1>
+            <p class="details">Find your perfect pair in this Valentine's Day edition of  the AF-1.<br>The durable leather design features heart-shaped details and<br>hidden graphics while a friendship key ring lets you <br>share the love with a solemate.</p>
+            <div class="price">
+                <div class="mainprice">
+                    ₹7,597.00
+                </div>
+                <p class="discount">50%</p>
+                <br>
+            </div>
+            <p class="wr">₹14,000.00</p>
+            <div class="count">
+                <button onclick="countminus()" class="btnc">-</button>
+                <p class="ccount" id="ccount">0</p>
+                <button onclick="countadd()" class="btnc">+</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
