@@ -1,5 +1,7 @@
 console.log("hi")
 
+window.alert("Best viewed on desktop for now — mobile version isn’t quite there yet 😉. Still working out a few bugs on the page. Fixes coming soon!(Crafted with code by Praveen)")
+
 function changeImage1(){
   const img = document.getElementById("Img1");
   const thumbnail= document.getElementById("imth");
